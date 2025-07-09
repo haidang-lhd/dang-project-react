@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  web-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: dang-project-react-dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
+
+  web-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dang-project-react-prod
+    ports:
+      - "8080:80"
