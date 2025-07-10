@@ -5,7 +5,7 @@ const HomePage: React.FC = () => {
   const { t, i18n } = useTranslation();
 
   const switchLanguage = () => {
-    const nextLang = i18n.language === 'vi' ? 'en' : 'vi';
+    const nextLang = i18n.language === 'en' ? 'vi' : 'en';
     i18n.changeLanguage(nextLang);
   };
 
