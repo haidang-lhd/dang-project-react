@@ -1,0 +1,11 @@
+{
+  "title": "Ứng dụng Quản lý Đầu tư Cá nhân",
+  "goals": {
+    "heading": "🧠 Mục tiêu",
+    "g1": "Ghi nhận giao dịch đầu tư (quá khứ hoặc tương lai)",
+    "g2": "Theo dõi giá trị danh mục theo thời gian",
+    "g3": "Biết được tỷ suất lợi nhuận hiện tại",
+    "g4": "Phân loại tài sản theo nhóm chính",
+    "g5": "Dễ mở rộng (tính năng bán, biểu đồ, đồng bộ giá...)"
+  }
+}

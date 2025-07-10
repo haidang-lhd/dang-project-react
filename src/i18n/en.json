@@ -1,0 +1,11 @@
+{
+  "title": "Personal Investment Manager",
+  "goals": {
+    "heading": "🧠 Goals",
+    "g1": "Record investment transactions (past or future)",
+    "g2": "Track portfolio value over time",
+    "g3": "View current profit rate",
+    "g4": "Classify assets by category",
+    "g5": "Easy to expand (selling, charting, price sync...)"
+  }
+}

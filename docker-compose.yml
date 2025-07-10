@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  web-dev:
+  web:
     build:
       context: .
       dockerfile: Dockerfile.dev
@@ -9,7 +9,7 @@ services:
     ports:
       - "5173:5173"
     volumes:
-      - ./src:/app/src
+      - ./src:/app/src              
       - ./public:/app/public
 
   web-prod:
