@@ -7,5 +7,10 @@
     "g3": "Biết được tỷ suất lợi nhuận hiện tại",
     "g4": "Phân loại tài sản theo nhóm chính",
     "g5": "Dễ mở rộng (tính năng bán, biểu đồ, đồng bộ giá...)"
+  },
+  "header": {
+    "title": "Ứng dụng Quản lý Đầu tư Cá nhân",
+    "login": "Đăng nhập",
+    "register": "Đăng ký"
   }
 }
