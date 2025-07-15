@@ -5,12 +5,16 @@ import App from './App';
 describe('App Component', () => {
   it('renders without crashing', () => {
     render(<App />);
-    expect(screen.getByText(/Personal Investment Manager/i)).toBeInTheDocument();
+    // Check for unique elements that confirm both Header and HomePage are rendered
+    expect(screen.getByText(/Login/i)).toBeInTheDocument();
+    expect(screen.getByText(/Register/i)).toBeInTheDocument();
+    expect(screen.getByText(/🧠 Goals/i)).toBeInTheDocument();
   });
 
   it('renders HomePage component', () => {
     render(<App />);
-    // Add more specific tests based on your HomePage component
-    expect(document.body).toBeInTheDocument();
+    // Check for HomePage specific content
+    expect(screen.getByText(/Record investment transactions/i)).toBeInTheDocument();
+    expect(screen.getByText(/Track portfolio value/i)).toBeInTheDocument();
   });
 });
