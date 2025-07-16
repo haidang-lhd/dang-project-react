@@ -1,16 +1,30 @@
 {
-  "title": "Personal Investment Manager",
+  "title": "Welcome to My React Project",
   "goals": {
-    "heading": "🧠 Goals",
-    "g1": "Record investment transactions (past or future)",
-    "g2": "Track portfolio value over time",
-    "g3": "View current profit rate",
-    "g4": "Classify assets by category",
-    "g5": "Easy to expand (selling, charting, price sync...)"
+    "heading": "Project Goals:",
+    "g1": "Learn React with TypeScript",
+    "g2": "Implement internationalization (i18n)",
+    "g3": "Practice modern React patterns",
+    "g4": "Build a responsive UI",
+    "g5": "Create a maintainable codebase"
   },
-  "header": {
-    "title": "Personal Investment Manager",
-    "login": "Login",
-    "register": "Register"
+  "login": {
+    "title": "Sign in to your account",
+    "subtitle": "Please enter your credentials",
+    "email": "Email address",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "signIn": "Sign in",
+    "signingIn": "Signing in...",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "loginFailed": "Login failed. Please check your credentials."
+    }
   }
 }

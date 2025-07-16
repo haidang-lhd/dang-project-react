@@ -1,16 +1,30 @@
 {
-  "title": "Ứng dụng Quản lý Đầu tư Cá nhân",
+  "title": "Chào mừng đến với Dự án React của tôi",
   "goals": {
-    "heading": "🧠 Mục tiêu",
-    "g1": "Ghi nhận giao dịch đầu tư (quá khứ hoặc tương lai)",
-    "g2": "Theo dõi giá trị danh mục theo thời gian",
-    "g3": "Biết được tỷ suất lợi nhuận hiện tại",
-    "g4": "Phân loại tài sản theo nhóm chính",
-    "g5": "Dễ mở rộng (tính năng bán, biểu đồ, đồng bộ giá...)"
+    "heading": "Mục tiêu dự án:",
+    "g1": "Học React với TypeScript",
+    "g2": "Triển khai đa ngôn ngữ (i18n)",
+    "g3": "Thực hành các pattern React hiện đại",
+    "g4": "Xây dựng UI responsive",
+    "g5": "Tạo codebase dễ bảo trì"
   },
-  "header": {
-    "title": "Ứng dụng Quản lý Đầu tư Cá nhân",
-    "login": "Đăng nhập",
-    "register": "Đăng ký"
+  "login": {
+    "title": "Đăng nhập vào tài khoản",
+    "subtitle": "Vui lòng nhập thông tin đăng nhập",
+    "email": "Địa chỉ email",
+    "password": "Mật khẩu",
+    "rememberMe": "Ghi nhớ đăng nhập",
+    "forgotPassword": "Quên mật khẩu?",
+    "signIn": "Đăng nhập",
+    "signingIn": "Đang đăng nhập...",
+    "noAccount": "Chưa có tài khoản?",
+    "signUp": "Đăng ký",
+    "errors": {
+      "emailRequired": "Email là bắt buộc",
+      "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+      "passwordRequired": "Mật khẩu là bắt buộc",
+      "passwordTooShort": "Mật khẩu phải có ít nhất 6 ký tự",
+      "loginFailed": "Đăng nhập thất bại. Vui lòng kiểm tra lại thông tin."
+    }
   }
 }
